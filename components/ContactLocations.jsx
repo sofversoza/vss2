@@ -14,7 +14,7 @@ const locations = [
 	{
 		id: "mesa",
 		officeName: "Mesa Office",
-		doctors: "Dr. Siegrist & Dr. Harrison",
+		doctors: "Dr. Harrison",
 		phone: "(480) 210-8620",
 		fax: "(480) 210-8622",
 		addressLines: ["2945 S. Dobson Road", "Mesa, AZ 85202"],
