@@ -1,0 +1,205 @@
+.sidebarNav {
+  padding-top: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.sidebarNavToggle {
+  display: none;
+}
+
+.sidebarNavPanel {
+  display: block;
+}
+
+.sidebarNavTitle {
+  margin: 0 0 1.5rem;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 0.9rem;
+  color: var(--neu-dark-1);
+}
+
+.sidebarNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-top: 1rem;
+}
+
+.sidebarNavLink,
+.sidebarNavSubLink {
+  display: block;
+  text-decoration: none;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.25;
+  color: #475569;
+  padding: 0.3rem 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.sidebarNavLink:hover,
+.sidebarNavLink:focus-visible,
+.sidebarNavSubLink:hover,
+.sidebarNavSubLink:focus-visible {
+  color: var(--primary-light);
+  transform: translateX(6px);
+}
+
+.sidebarNavLinkActive {
+  color: var(--primary-light);
+  font-weight: 700;
+  transform: translateX(6px);
+}
+
+.sidebarNavSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarNavSectionLabel {
+  margin: 0;
+  padding: 0.3rem 0;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.25;
+  font-weight: var(--fw-bold);
+  color: #475569;
+}
+
+.sidebarNavSectionLabelActive {
+  color: var(--primary-light);
+}
+
+.sidebarNavGroups {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sidebarNavGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.sidebarNavGroupLabel {
+  margin: 0;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 0.78rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.2;
+  color: #64748b;
+}
+
+.sidebarNavSubLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding-left: 0.85rem;
+}
+
+.sidebarNavSubLink {
+  font-size: 0.84rem;
+}
+
+/* Desktop only */
+.sidebarNavSubLink {
+  max-width: 22ch;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+/* Tablet/mobile hamburger version */
+@media (max-width: 980px) {
+  .sidebarNavSubLink {
+    max-width: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .sidebarNav {
+    position: sticky;
+    top: var(--sidebar-top-offset, 0px);
+    z-index: 40;
+    padding: 0;
+    background: var(--neu-dark-1);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .sidebarNavToggle {
+    width: 100%;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+  }
+  .sidebarNavToggleText {
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: var(--fw-bold);
+    font-size: 0.9rem;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .sidebarNavToggleIcon {
+    color: #fff;
+    flex: 0 0 auto;
+  }
+  .sidebarNavPanel {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 45;
+    padding: 1rem;
+    background: var(--neu-dark-1);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.28);
+    max-height: calc(100dvh - var(--sidebar-top-offset, 0px) - 56px);
+    overflow-y: auto;
+  }
+  .sidebarNavPanelOpen {
+    display: block;
+  }
+  .sidebarNavTitle {
+    display: none;
+  }
+  .sidebarNavLinks {
+    margin-top: 0;
+    gap: 0.25rem;
+  }
+  .sidebarNavLink,
+  .sidebarNavSubLink {
+    color: rgba(255, 255, 255, 0.86);
+    padding: 0.4rem 0;
+  }
+  .sidebarNavLink:hover,
+  .sidebarNavLink:focus-visible,
+  .sidebarNavSubLink:hover,
+  .sidebarNavSubLink:focus-visible {
+    color: #fff;
+    transform: translateX(6px);
+  }
+  .sidebarNavLinkActive {
+    color: #fff;
+  }
+  .sidebarNavSectionLabel {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .sidebarNavSectionLabelActive {
+    color: #fff;
+  }
+  .sidebarNavGroupLabel {
+    color: rgba(255, 255, 255, 0.62);
+  }
+  .sidebarNavSubLinks {
+    padding-left: 0.9rem;
+  }
+}

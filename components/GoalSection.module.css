@@ -1,0 +1,311 @@
+.goalsSection,
+.facilitiesSection {
+  width: 100%;
+  padding: 2.5rem;
+}
+.goalsSection {
+  background: var(--primary);
+}
+.facilitiesSection {
+  background: var(--gray);
+}
+.wrapper {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  padding: 0 3rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.goalsSection .wrapper {
+  gap: 5rem;
+}
+.facilitiesSection .wrapper {
+  gap: 2.5rem;
+}
+
+/* Goals Section */
+.content {
+  flex: 1.15;
+  max-width: 760px;
+}
+.title {
+  margin: 0 0 1.3rem;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-light);
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.96);
+}
+.body {
+  margin: 0;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-reg);
+  font-size: 1rem;
+  line-height: 1.32;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 550px;
+}
+.body+.body {
+  margin-top: 1rem;
+}
+.cta {
+  margin-top: 1.15rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--neu-light-1);
+  text-decoration: none;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: opacity 0.2s ease;
+}
+.cta:hover,
+.cta:focus-visible {
+  opacity: 0.9;
+  text-decoration: none;
+}
+.ctaArrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+.cta:hover .ctaArrow,
+.cta:focus-visible .ctaArrow {
+  transform: translateX(4px);
+}
+.media {
+  flex: 0.9;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.imageInner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #dbe3ea;
+  overflow: hidden;
+}
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Facilities Section  */
+.facilitiesContent {
+  flex: 1;
+  max-width: 650px;
+}
+.facilitiesTitle {
+  margin: 0;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-reg);
+  font-size: clamp(1.25rem, 2.2vw, 1.55rem);
+  line-height: 1.15;
+  color: #2f3b43;
+}
+.facilitiesBody {
+  margin: 1.15rem 0 0;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: var(--fw-reg);
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+  line-height: 1.32;
+  color: #3f4c54;
+  max-width: 500px;
+}
+.facilitiesBody strong {
+  font-weight: var(--fw-bold);
+  color: #2f3b43;
+}
+.ctaDark {
+  margin-top: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  color: #2f3b43;
+  text-decoration: none;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 0.9rem;
+}
+.ctaDarkArrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+.ctaDark:hover .ctaDarkArrow,
+.ctaDark:focus-visible .ctaDarkArrow {
+  transform: translateX(4px);
+}
+.scleroCard {
+  flex: 1;
+  max-width: 455px;
+  display: flex;
+  min-height: 230px;
+  overflow: hidden;
+}
+.scleroGraphic {
+  position: relative;
+  flex: 1.55;
+  background: #f2f2f2;
+  min-height: 230px;
+}
+.scleroGraphicImage {
+  object-fit: cover;
+  object-position: center;
+}
+.scleroPanel {
+  flex: 0.95;
+  background: var(--neu-dark-1);
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.scleroLead {
+  margin: 0;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-reg);
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.95);
+}
+.scleroLead em {
+  font-style: italic;
+  font-weight: var(--fw-bold);
+}
+.scleroLinks {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+}
+.scleroLink {
+  display: inline-block;
+  width: fit-content;
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 1.15;
+}
+.scleroArrow {
+  display: inline-block;
+  margin-left: 0.2rem;
+  transition: transform 0.2s ease;
+  line-height: 1;
+  vertical-align: baseline;
+}
+.scleroLink:hover .scleroArrow,
+.scleroLink:focus-visible .scleroArrow {
+  transform: translateX(4px);
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+  .wrapper {
+    padding: 0 2rem;
+  }
+  .goalsSection .wrapper {
+    gap: 2rem;
+  }
+  .facilitiesSection .wrapper {
+    gap: 1.75rem;
+  }
+  .scleroCard {
+    min-height: 220px;
+  }
+  .scleroPanel {
+    padding: 1.1rem 1rem;
+  }
+}
+
+/* Mobile & Smaller */
+@media (max-width: 900px) {
+  .goalsSection,
+  .facilitiesSection {
+    padding: 2rem 0;
+  }
+  .wrapper {
+    padding: 0 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: center;
+  }
+  .content,
+  .facilitiesContent {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: clamp(1.35rem, 5vw, 1.75rem);
+    line-height: 1.18;
+  }
+  .body,
+  .facilitiesBody {
+    max-width: none;
+    line-height: 1.35;
+    font-size: 0.95rem;
+  }
+  .media {
+    justify-content: center;
+  }
+  .imageInner {
+    width: min(100%, 640px);
+    aspect-ratio: 16 / 10;
+  }
+  .facilitiesTitle {
+    font-size: clamp(1.15rem, 4.5vw, 1.4rem);
+  }
+  .scleroCard {
+    flex-direction: column;
+    max-width: min(100%, 520px);
+    min-height: auto;
+  }
+  .scleroGraphic {
+    min-height: 200px;
+  }
+  .scleroPanel {
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  .scleroLinks {
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 0 0.85rem;
+    gap: 1rem;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+  .body,
+  .facilitiesBody {
+    font-size: 0.9rem;
+  }
+  .cta,
+  .ctaDark {
+    font-size: 0.85rem;
+  }
+  .imageInner {
+    width: 100%;
+  }
+  .scleroGraphic {
+    min-height: 180px;
+  }
+  .scleroLead {
+    font-size: 0.75rem;
+  }
+  .scleroLink {
+    font-size: 0.68rem;
+  }
+}

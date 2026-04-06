@@ -1,14 +1,44 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Colors */
+  --primary: #05294D;
+  --primary-light: #073D73;
+  --primary-dark: #031F3A;
+  --secondary: #E9BB86;
+
+  /* Neutrals */
+  --neu-light-1: #F7F5FB;
+  --neu-light-2: #E8EEF2;
+  --neu-dark-1: #3B3F3B;
+  --neu-dark-2: #282A28;
+  --blue-gray: #64748b;
+  --gray: #f3f5f7;
+
+  /* Fonts */
+  --fw-light: 300;
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  --main-navbar-height: 132px;
 }
 
-@media (prefers-color-scheme: dark) {
+/* animations */
+.slide-right-link {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.slide-right-link:hover,
+.slide-right-link:focus-visible {
+  transform: translateX(4px);
+  opacity: 0.92;
+}
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
@@ -17,9 +47,8 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat), sans-serif;
+  background: var(--gray);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,8 +64,12 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+.pageSection {
+  min-height: calc(100vh - 20vh);
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */

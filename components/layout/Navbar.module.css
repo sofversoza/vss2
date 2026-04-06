@@ -1,0 +1,231 @@
+.header {
+  position: relative;
+  z-index: 1000;
+  color: var(--neu-light-1);
+  background: var(--primary);
+}
+
+.inner {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1rem 5rem;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+
+.siteTitle {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-light);
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  color: var(--neu-light-1);
+}
+
+.contactBlock {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+
+.contactItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--neu-light-1);
+  text-decoration: none;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.bottom {
+  width: 100%;
+  background: var(--primary-dark);
+}
+
+.bottomInner {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 52px;
+}
+
+.link {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: var(--neu-light-1);
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.75rem 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.link:hover,
+.link:focus-visible {
+  background: #fff;
+  color: var(--primary-dark);
+}
+
+.active {
+  background: #fff;
+  color: var(--primary-dark);
+}
+
+.mobileActions {
+  display: none;
+}
+
+.mobileHomeButton,
+.mobileToggle {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--neu-light-1);
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.65rem;
+  line-height: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mobileHomeButton:hover,
+.mobileHomeButton:focus-visible,
+.mobileToggle:hover,
+.mobileToggle:focus-visible {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.mobileIcon {
+  display: inline-flex;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    padding: 0 0.75rem;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.85rem;
+    text-align: center;
+    padding: 1rem 0 0.85rem;
+  }
+
+  .mobileActions {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    pointer-events: none;
+  }
+
+  .mobileHomeButton,
+  .mobileToggle {
+    pointer-events: auto;
+  }
+
+  .siteTitle {
+    flex: none;
+    text-align: center;
+    font-size: clamp(1.35rem, 7vw, 1.9rem);
+  }
+
+  .contactBlock {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .contactItem {
+    font-size: 0.82rem;
+  }
+
+  .bottom {
+    position: relative;
+  }
+
+  .bottomInner {
+    padding: 0 0.75rem;
+    position: static;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1100;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    padding: 0.75rem 0.75rem 1rem;
+    min-height: unset;
+    background: var(--primary-dark);
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.28);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+  }
+
+  .navOpen {
+    display: flex;
+  }
+
+  .link {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .mobileHomeButton,
+  .mobileToggle {
+    padding: 0.38rem 0.55rem;
+  }
+
+  .mobileIcon {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+}

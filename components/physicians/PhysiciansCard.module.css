@@ -1,0 +1,123 @@
+.card {
+  width: calc((100% - 3rem) / 3);
+  min-width: 0;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 3px;
+}
+
+.imageWrap {
+  position: relative;
+  flex: 0 0 115px;
+  min-height: 170px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.titleAbbreviations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.titleAbbreviation {
+  font-size: 0.72rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.role {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.25;
+}
+
+.summary {
+  margin: 0.35rem 0 0;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  font-weight: var(--fw-reg);
+}
+
+.cta {
+  margin-top: auto;
+  padding-top: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  text-decoration: none;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.cta span:first-child,
+.arrow {
+  transition: transform 0.2s ease;
+}
+
+.arrow {
+  display: inline-block;
+  line-height: 1;
+}
+
+.cta:hover,
+.cta:focus-visible {
+  opacity: 0.95;
+}
+
+.cta:hover span:first-child,
+.cta:focus-visible span:first-child {
+  transform: translateX(4px);
+}
+
+.cta:hover .arrow,
+.cta:focus-visible .arrow {
+  transform: translateX(6px);
+}
+
+@media (max-width: 1100px) {
+  .card {
+    width: calc((100% - 1.5rem) / 2);
+  }
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 100%;
+  }
+
+  .imageWrap {
+    flex: 0 0 100px;
+    min-height: 145px;
+  }
+}

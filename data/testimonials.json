@@ -1,0 +1,82 @@
+[
+	{
+		"id": "chris-f",
+		"reviewer": "Chris Frazier",
+		"location": null,
+		"quote": "Dr. Brink was awesome. He performed some of my many surgeries that kept me alive due to a condition that has a high mortality rate when I eventually woke up and met a man. He was very personable and took his time to explain everything that had happened, I am very appreciative",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "j-mart",
+		"reviewer": "J Martinez",
+		"location": null,
+		"quote": "Customer service is excellent, from the front desk staff to the medical assistants. Then Dr Brink walks in with such a cheerful attitude, explaining everything and making sure to answer ant & all questions. Great experience & I would refer them to anyone & everyone.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "lauren-s",
+		"reviewer": "Lauren Stine",
+		"location": null,
+		"quote": "Walking into a surgeons office is never easy. Dr. Harrison is not only highly knowledgeable but brings a wonderful bedside manner. He meets you where you are at in your journey and truly helps you figure out the next step. At this time I do not need a procedure but in the future if I do I will absolutely be going with Dr. Harrison. Thank you to the wonderful ultrasound tech as well!",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "erin-b",
+		"reviewer": "Erin Burdt",
+		"location": null,
+		"quote": "Very detailed, oersonable, and professional! Explained everything until I fully understood what was going on. Staff were excellent. Short wait time before seeing nurses and providers.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "colleen-s",
+		"reviewer": "Colleen Saathoff",
+		"location": null,
+		"quote": "Nothing but positive things to say. Office is efficient, on time, clean, nice people and the doctor so super friendly and takes his time to explain everything.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "michelle-p",
+		"reviewer": "Michelle Puckett",
+		"location": null,
+		"quote": "This office is clean, soothing, fun, and comfortable. Very attentive to what your alignments, or injuries are. Everyone is a team! My appointments are Always on time! 4 visits in and my legs feel a lot better! Recommend visiting.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "tm-k",
+		"reviewer": "TM Kerwin",
+		"location": null,
+		"quote": "Dr. and staff are warm, welcoming and care about your comfort. The procedure performed was (for me) easy and quick. Very little recovery time, no scar. I would recommend this vascular surgeon and his staff to anyone.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "james-h",
+		"reviewer": "James Hawthorne",
+		"location": null,
+		"quote": "Dr Zomaya was very professional. He summarized what would/could take place during the procedure and what would happen if the original plan had to change. I felt very comfortable with him on my surgical team.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "annie-r",
+		"reviewer": "Annie R.",
+		"location": null,
+		"quote": "Dr. Zomaya and staff have the unique ability to be very professional and yet make you feel right at home. The procedure I had done was 100% sukcessful. Now with the absence of pain in my leg; my quality of life has improved. Thank you so much.",
+		"rating": "5",
+		"source": "Google"
+	},
+	{
+		"id": "vickie-e",
+		"reviewer": "Vickie E.",
+		"location": null,
+		"quote": "True MD no bs very blunt and to the point but a friendly guy and jokes around with you lol. Best Dr I have dealt with in years and his work omg amazing. Would highly recommend him to anyone that needs a vascular surgeon, not sure what all he can do but it's worth to call his office to see if he can help you. Best call I have made. Thank you so much Dr. Zomaya you rock!!",
+		"rating": "5",
+		"source": "Google"
+	}
+]

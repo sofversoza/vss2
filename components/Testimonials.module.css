@@ -1,0 +1,248 @@
+.section {
+  margin-top: 2.5rem;
+  padding: 2.5rem;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+/* Variant-specific style: this is for landing page */
+.landing {
+  margin-top: 0;
+  padding: 0;
+  border-top: 0;
+}
+.landing .title {
+  font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+  font-weight: var(--fw-reg);
+  letter-spacing: -0.5px;
+  color: #475569;
+}
+.landing .slider {
+  max-width: 820px;
+  margin: 1rem auto 0;
+}
+.landing .quoteInner {
+  max-width: 680px;
+}
+.landing .dots {
+  margin-top: 1rem;
+}
+
+.header {
+  display: block;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  color: var(--neu-dark-1);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.15;
+}
+.slider {
+  margin-top: 0.75rem;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) 24px;
+  align-items: center;
+  gap: 0.4rem;
+}
+.arrow {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--primary-dark);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.arrow:hover,
+.arrow:focus-visible {
+  opacity: 0.9;
+}
+.arrowLeft:hover,
+.arrowLeft:focus-visible {
+  transform: translateX(-2px);
+}
+.arrowRight:hover,
+.arrowRight:focus-visible {
+  transform: translateX(2px);
+}
+.quoteWrap {
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 220px;
+}
+.quoteInner {
+  width: 100%;
+  max-width: 620px;
+  min-height: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: fadeIn 0.45s ease;
+}
+.quote {
+  margin: 0;
+  min-height: 7.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #334155;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  text-align: center;
+}
+.meta {
+  margin-top: 1.35rem;
+  min-height: 4rem;
+  text-align: center;
+}
+.reviewer {
+  margin: 0;
+  color: var(--neu-dark-1);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 700;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  text-align: center;
+}
+.location {
+  margin: 0.15rem 0 0;
+  color: #64748b;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.1;
+  text-align: center;
+}
+.sourceTag {
+  margin: 0.15rem 0 0;
+  color: var(--primary-dark);
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+.dots {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+.dot {
+  appearance: none;
+  border: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(10, 34, 64, 0.22);
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.dot:hover,
+.dot:focus-visible {
+  transform: scale(1.1);
+}
+.dotActive {
+  background: var(--primary-dark);
+  transform: scale(1.15);
+}
+.sources {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  text-align: center;
+}
+.sourcesLabel {
+  color: #64748b;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.sourceLink {
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.sourceLink:hover,
+.sourceLink:focus-visible {
+  text-decoration: underline;
+}
+.sourceItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.sourceDivider {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.rating {
+  margin-bottom: 0.45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.15rem;
+}
+.ratingIcon {
+  color: #f5b301;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arrow,
+  .dot {
+    transition: none;
+  }
+  .quoteInner {
+    animation: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider {
+    grid-template-columns: 20px minmax(0, 1fr) 20px;
+    gap: 0.25rem;
+  }
+  .quoteWrap,
+  .quoteInner {
+    min-height: 250px;
+  }
+  .quote {
+    min-height: 8.5em;
+    font-size: 0.86rem;
+  }
+  .meta {
+    min-height: 3.6rem;
+  }
+  .reviewer,
+  .location,
+  .sourceTag,
+  .sourcesLabel,
+  .sourceLink {
+    font-size: 0.72rem;
+  }
+}

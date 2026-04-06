@@ -1,0 +1,416 @@
+.aboutPage {
+  width: 100%;
+}
+.aboutPageSurface {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  padding: 1rem;
+  overflow-x: clip;
+}
+.aboutPageBody {
+  padding: 1rem 1.25rem 1.25rem;
+}
+.aboutPageContentStack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.aboutPageCtaWrap {
+  margin: 1rem 0 1rem;
+}
+.aboutPageCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  width: fit-content;
+  color: var(--blue-gray);
+  text-decoration: none;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 0.9rem;
+  line-height: 1.2;
+  transition: color 0.2s ease;
+}
+.aboutPageCtaText {
+  transition: color 0.2s ease;
+}
+.aboutPageCtaIcon {
+  display: inline-block;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+.aboutPageCta:hover,
+.aboutPageCta:focus-visible {
+  color: var(--primary-light);
+}
+.aboutPageCta:hover .aboutPageCtaText,
+.aboutPageCta:focus-visible .aboutPageCtaText {
+  color: var(--primary-light);
+}
+.aboutPageCta:hover .aboutPageCtaIcon,
+.aboutPageCta:focus-visible .aboutPageCtaIcon {
+  transform: translateX(4px);
+}
+
+.pageHeader {
+  padding: 1rem;
+  width: 55%;
+}
+.pageHeaderTitle {
+  margin: 0;
+  color: var(--primary-light);
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+  letter-spacing: -0.55px;
+  line-height: 1.15;
+}
+/* ---------- CONTENT SECTION ---------- */
+.contentSection {
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.contentSectionHeading {
+  margin: 0.55rem 0 0.75rem;
+  color: var(--blue-gray);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.contentSectionSubheading {
+  margin: 0 0 0.25rem;
+  color: var(--blue-gray);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+.contentSectionBody {
+  margin-top: 0.25rem;
+  display: flow-root;
+}
+.contentSectionParagraph {
+  margin: 0;
+  color: #334155;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.contentSectionParagraph+.contentSectionParagraph {
+  margin-top: 1rem;
+}
+.contentSectionList {
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.contentSectionListItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.contentSectionListIcon {
+  flex: 0 0 auto;
+  margin-top: 0.08rem;
+  color: var(--primary-light);
+}
+.contentSectionListText {
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.15;
+}
+.contentSectionListLabel {
+  font-weight: var(--fw-bold);
+  color: var(--blue-gray);
+}
+.contentSectionListDescription {
+  font-weight: var(--fw-reg);
+  color: #334155;
+}
+.contentSectionNestedList {
+  margin: 0.35rem 0 0 0.25rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.contentSectionNestedItem {
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.contentSectionNestedLabel {
+  color: var(--blue-gray);
+  font-weight: var(--fw-bold);
+  font-size: 0.85rem;
+}
+.contentSectionNestedItemText {
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #334155;
+}
+.contentSectionInlineLayout {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.contentSectionInlineLayoutLeft {
+  flex-direction: row-reverse;
+}
+.contentSectionInlineLayoutRight {
+  flex-direction: row;
+}
+.contentSectionInlineText {
+  flex: 1;
+  min-width: 0;
+}
+.contentSectionInlineMedia {
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.contentSectionInlineImage {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.contentSectionFloatMedia {
+  width: fit-content;
+  max-width: 100%;
+}
+.contentSectionFloatMediaLeft {
+  float: left;
+  margin: 0.15rem 1rem 0.75rem 0;
+}
+.contentSectionFloatMediaRight {
+  float: right;
+  margin: 0.15rem 0 0.75rem 1rem;
+}
+.contentSectionInlineImageGroup {
+  display: flex;
+  gap: 0.5rem;
+  width: fit-content;
+  max-width: 100%;
+}
+.contentSectionInlineImageGroupRow {
+  flex-direction: row;
+}
+.contentSectionInlineImageGroupColumn {
+  flex-direction: column;
+}
+.contentSectionInlineImageGroupImage {
+  width: var(--about-group-image-width, 180px);
+  height: auto;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+.contentSectionLinks {
+  margin-top: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.contentSectionLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  width: fit-content;
+  color: var(--blue-gray);
+  text-decoration: none;
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 0.85rem;
+  line-height: 1.2;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.contentSectionLink:hover,
+.contentSectionLink:focus-visible {
+  transform: translateX(4px);
+  opacity: 0.95;
+}
+.contentSectionLinkArrow {
+  display: inline-block;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+.contentSectionLink:hover .contentSectionLinkArrow,
+.contentSectionLink:focus-visible .contentSectionLinkArrow {
+  transform: translateX(2px);
+}
+.contentSectionAddressGroup {
+  margin-top: 0.5rem;
+}
+.contentSectionAddress {
+  margin: 0;
+  color: var(--blue-gray);
+  font-family: var(--font-lato), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+.contentSectionAddress+.contentSectionAddress {
+  margin-top: 0.2rem;
+}
+.mediaSection {
+  padding: 1rem 0 0.5rem;
+  background: transparent;
+  border: 0;
+}
+.mediaSectionHeading {
+  margin: 0 0 0.75rem;
+  color: var(--neu-dark-1);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.mediaFrame {
+  position: relative;
+  width: 100%;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+.mediaFrameStandard {
+  aspect-ratio: 16 / 9;
+}
+.mediaFrameTall {
+  aspect-ratio: 16 / 10;
+}
+.mediaFrameLarge {
+  min-height: 431px;
+}
+.mediaImage {
+  object-fit: cover;
+  object-position: center;
+}
+.mediaIframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.aboutPageAttribution {
+  width: 65%;
+  text-align: center;
+  margin: 1.2rem auto 1rem;
+  color: #64748b;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 0.65rem;
+  line-height: 1.45;
+}
+.aboutPageAttributionLink {
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+}
+.aboutPageAttributionLink:hover,
+.aboutPageAttributionLink:focus-visible {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .mediaFrameLarge {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 700px) {
+  .pageHeader {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    text-align: center;
+  }
+
+  .pageHeaderTitle {
+    font-size: 1.2rem;
+  }
+
+  .aboutPageBody {
+    padding: 1rem;
+  }
+
+  .contentSectionHeading,
+  .contentSectionSubheading {
+    text-align: center;
+  }
+
+  .contentSectionHeading,
+  .mediaSectionHeading {
+    font-size: 0.95rem;
+  }
+
+  .contentSectionSubheading {
+    font-size: 0.86rem;
+  }
+
+  .contentSectionParagraph,
+  .contentSectionListText {
+    font-size: 0.9rem;
+  }
+
+  .contentSectionNestedItem,
+  .contentSectionNestedItemText,
+  .contentSectionNestedLabel {
+    font-size: 0.88rem;
+  }
+
+  .contentSectionLink {
+    font-size: 0.84rem;
+  }
+
+  .aboutPageCta {
+    font-size: 0.84rem;
+  }
+
+  .contentSectionInlineLayout,
+  .contentSectionInlineLayoutLeft,
+  .contentSectionInlineLayoutRight {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentSectionInlineMedia,
+  .contentSectionFloatMedia {
+    flex: none;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto 1rem;
+  }
+
+  .contentSectionFloatMediaRight,
+  .contentSectionFloatMediaLeft {
+    float: none;
+    margin: 0 auto 1rem;
+  }
+
+  .contentSectionInlineImageGroup {
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contentSectionInlineImageGroupRow {
+    flex-direction: row;
+  }
+
+  .contentSectionInlineImageGroupImage {
+    width: calc((100% - 0.5rem) / 2);
+    max-width: none;
+  }
+
+  .mediaFrameLarge {
+    min-height: 240px;
+  }
+
+  .aboutPageAttribution {
+    font-size: 0.4rem;
+  }
+}

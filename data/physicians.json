@@ -1,0 +1,454 @@
+[
+	{
+		"id": "jeromy-brink",
+		"slug": "jeromy-brink",
+		"group": "physician",
+		"name": "Jeromy S. Brink",
+		"titleAbbreviations": ["M.D.", "F.A.C.S."],
+		"title": "Board Certified Vascular and Endovascular Surgeon",
+		"image": "/images/providers/JBrink.jpg",
+		"imageAlt": "Dr. Jeromy Brink",
+		"summary": "Board certified vascular and endovascular surgeon with training from the Mayo Clinic and a focus on minimally invasive and surgical vascular care",
+		"bio": [
+			"Dr. Jeromy Brink grew up in Central Nebraska and moved to Phoenix, Arizona during high school. He attended Bourgade Catholic High School and later earned a Bachelor of Science from the University of Arizona in Tucson. He received his Doctor of Medicine from the University of Arizona College of Medicine in 1997. Dr. Brink completed his General Surgery Residency and Vascular Surgery Fellowship at the Mayo Clinic in Rochester, Minnesota.",
+			"He is certified by the American Board of Surgery in Vascular Surgery and serves as a faculty member of the Banner University Medical Center Phoenix Integrated Surgical Residency program, where he also participates in the education of surgical residents and medical students. Dr. Brink is an assistant clinical professor with the University of Arizona College of Medicine. He is a staff/attending surgeon at Banner University Medical Center, Banner Desert, and St. Joseph’s Hospital.",
+			"Dr. Brink is committed to full-service vascular care and works in both the operating room and interventional suite. He also holds additional industry certification in thoracic aortic stent grafting, endovenous laser vein therapy, and vagal nerve stimulation. Outside of work, he is married and enjoys spending time with his wife and three daughters. He also has an identical twin brother who is a transplant surgeon at Banner University Medical Center."
+		],
+		"credentials": [
+			"Board Certified in Vascular Surgery (American Board of Surgery)",
+			"Faculty member, Banner University Medical Center Phoenix Integrated Surgical Residency Program",
+			"Assistant Clinical Professor, University of Arizona College of Medicine",
+			"Staff/Attending Surgeon at Banner University Medical Center, Banner Desert, and St. Joseph’s Hospital",
+			"Additional certification in thoracic aortic stent grafting, endovenous laser vein therapy, and vagal nerve stimulation"
+		],
+		"awards": [
+			{
+				"id": "top-doc",
+				"title": "Top Doc",
+				"issuer": "Phoenix Magazine",
+				"awardedBy": "Peers",
+				"year": null,
+				"image": "/images/TopDocLogo.webp"
+			}
+		],
+		"testimonials": [
+			{
+				"id": "chris-f",
+				"reviewer": "Chris Frazier",
+				"location": null,
+				"quote": "Dr. Brink was awesome. He performed some of my many surgeries that kept me alive due to a condition that has a high mortality rate when I eventually woke up and met a man. He was very personable and took his time to explain everything that had happened, I am very appreciative",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "carrie-m",
+				"reviewer": "Carrie Maze",
+				"location": null,
+				"quote": "Dr Brink and his staff are the best! Dr Brink is an amazing surgeon. He is articulate and cares about his patient! Highly recommend! We wouldn't go anywhere else!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "tracy-o",
+				"reviewer": "Tracy O'Bringer",
+				"location": null,
+				"quote": "Dr. Brink is Amazing! He made me feel wonderful & comfortable about my upcoming surgery. Explained everything in detail. Very kind & personable. So far my journey with him has been ALL great!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "gina-s",
+				"reviewer": "Gina Somers",
+				"location": null,
+				"quote": "My appointment with Dr Jeremy Brink was successful and I am very pleased with the kindness and professionalism of everyone in this office. Although I may have to have additional procedures, I trust this doctor and I'm happy to have him on my team!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "linda-r",
+				"reviewer": "Linda Roberts",
+				"location": null,
+				"quote": "We, as a family, cannot say enough good things about Dr. Brink. Besides being a talented & knowledgeable surgeon, he is a kind, attentive person who patiently answers questions. We feel confident in his abilities & reassured that our father is in good hands.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "chris-c",
+				"reviewer": "Chris Crabbs",
+				"location": null,
+				"quote": "I met with Dr Brinks for a second opinion. I'm extremely glad I did. My first doctor recommended extensive treatment, which I didn't think was needed. Dr Brinks explanation of my current condition and treatments made perfect sense and was more conservative and reasonable than the first doctor. Dr Brinks was easy to talk to and patiently answered my questions. He will be my first choice going forward.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "vicki-d",
+				"reviewer": "Vicki Duerr",
+				"location": null,
+				"quote": "Being a Nervous Nelly, I was apprehensive about having a stent put in. The office staff was so nice and just very pleasant. Dr Brink was wonderful, made me feel so at ease described exactly what they were going to do and it was just relaxing to talk to him. He was very knowledgeable. I now look forward to getting the vascular surgery and not having to worry about my aneurysm bursting. The whole office just made me feel so comfortable and the ones that wanted to have a little humor, they were enjoyable as well. Thank you very much",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "don-k",
+				"reviewer": "Don Kellis",
+				"location": null,
+				"quote": "Very and very good doctor and staff. Great follow up after stent repair on my very large/oversized decending Aorta. I would highly recommend",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "bruce-w",
+				"reviewer": "Bruce Walker",
+				"location": null,
+				"quote": "Dr. Brink explained the procedure to clear out my right carotid artery and the surgery went very well. He is is very skilled and also caring. I feel fortunate that the blockage was discovered and that Dr. Brink was my surgeon.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "j-mart",
+				"reviewer": "J Martinez",
+				"location": null,
+				"quote": "Customer service is excellent, from the front desk staff to the medical assistants. Then Dr Brink walks in with such a cheerful attitude, explaining everything and making sure to answer ant & all questions. Great experience & I would refer them to anyone & everyone.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "joe-a",
+				"reviewer": "Joe A.",
+				"location": null,
+				"quote": "Dr. Brink recently did a laser ablation procedure along with sclerotherapy on my legs. He is an amazing doctor. The procedure turned out to be pain free and the results are amazing. Not only are my painful varicose veins gone, but my legs look like they did 20+ years ago. Dr. Brink was great about explaining what would happen during the procedure. If you have bad veins and are putting this off, just take care of it. You will be glad you did in the end. I'm glad I found Dr. Brink to do this work. He is a gifted surgeon and does excellent work.",
+				"rating": null,
+				"source": "Google"
+			},
+			{
+				"id": "joseph-f",
+				"reviewer": "Joseph F.",
+				"location": null,
+				"quote": "Repaired abdominal aortic aneurism then 5 days later developed blood clot. Dr brink replaced vein in leg and my recouperation has been phenomenal. Thank you to Dr Brink and his awesome team.",
+				"rating": null,
+				"source": "Google"
+			},
+			{
+				"id": "janel-d",
+				"reviewer": "Janel D.",
+				"location": null,
+				"quote": "Wonderful care provided to my father for an abdominal aortic aneurysm.",
+				"rating": null,
+				"source": "Google"
+			},
+			{
+				"id": "craig-b",
+				"reviewer": "Craig B.",
+				"location": null,
+				"quote": "Dr Brink is one of the best doctors I've had the pleasure of seeing. One of the few I've seen that sincerely pays attention and listens to any problems I've had. He did the bypass on my clogged stent and essentially saved my leg. I can't thank him enough for that. His staff is very personable and helpful. The tech who did my ultrasound was awesome. Dr Brink is one of the few I've seen that doesnt have his attention on the computer but listens. I have been lucky to have him as a surgeon. A+++",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "samir-g",
+				"reviewer": "Samir G.",
+				"location": null,
+				"quote": "I'm still at the hospital , I had my procedure done 6 hours ago couldn't wait to go home and write this review he is ABSOLUTELY THE BEST. he made me feel very comfortable and everything went exactly the way he said it would. Love this doctor.",
+				"rating": null,
+				"source": "Google"
+			},
+			{
+				"id": "judy",
+				"reviewer": "Judy",
+				"location": null,
+				"quote": "Dr. Brink always takes time to fully explain the procedure or answer any questions. Always cheerful and has an excellent bedside manner. Confident.",
+				"rating": null,
+				"source": "Google"
+			}
+		],
+		"testimonialSources": [
+			{
+				"label": "Google Reviews",
+				"url": "https://www.google.com/search?source=hp&ei=Wa_LWquVIciItQXVzaHIBw&q=dr.+jeromy+brink+az&oq=dr.+jeromy+brink+az&gs_l=psy-ab.3..0i22i30k1.1130.5464.0.5564.19.19.0.0.0.0.240.1896.7j8j1.16.0..2..0...1.1.64.psy-ab..3.16.1894...0j0i131k1j0i22i10i30k1.0.UtcM0EFwmE0#lrd=0x872b1267d70764f1:0x803f9576e254dee6,1,,,"
+			},
+			{
+				"label": "Healthgrades",
+				"url": "https://www.healthgrades.com/physician/dr-jeromy-brink-2s9r5"
+			}
+		]
+	},
+	{
+		"id": "wilson-harrison",
+		"slug": "wilson-harrison",
+		"group": "physician",
+		"name": "Wilson Harrison",
+		"titleAbbreviations": ["M.D."],
+		"title": "Board Certified Vascular and Endovascular Surgeon",
+		"image": "/images/providers/WHarrison.jpeg",
+		"imageAlt": "Dr. Wilson Harrison",
+		"summary": "Board Certified Surgeon by the American Board of Surgery",
+		"bio": [
+			"Dr. Wilson Harrison is from Longview, Texas and moved to Arizona in 2020. He attended Baylor University for undergraduate education and later Texas A&M Medical School, graduating in 2013. Dr. Harrison completed his General Surgery residency at the University of Missouri-Kansas City and subsequently completed his Vascular Surgery Fellowship at the University of Nebraska in Omaha, Nebraska.",
+			"Dr. Harrison is certified by the American Board of Surgery in Surgery. Dr. Harrison is a staff surgeon at Banner University Medical Center, St. Joseph's Hospital, and Chandler Regional Hospital. He holds a faculty appointment with the University of Arizona College of Medicine and has been an active participant in the training of residents and medical students. Dr. Harrison is committed to the complete care of his vascular patients and he provides the full gamut of vascular services."
+		],
+		"credentials": [
+			"Board Certified by the American Board of Surgery",
+			"Staff surgeon at Banner University Medical Center, St. Joseph's Hospital, and Chandler Regional Hospital",
+			"Faculty appointment with the University of Arizona College of Medicine"
+		],
+		"awards": [],
+		"testimonials": [
+			{
+				"id": "lauren-s",
+				"reviewer": "Lauren Stine",
+				"location": null,
+				"quote": "Walking into a surgeons office is never easy. Dr. Harrison is not only highly knowledgeable but brings a wonderful bedside manner. He meets you where you are at in your journey and truly helps you figure out the next step. At this time I do not need a procedure but in the future if I do I will absolutely be going with Dr. Harrison. Thank you to the wonderful ultrasound tech as well!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "desert-f",
+				"reviewer": "DesertForrest",
+				"location": null,
+				"quote": "Dr. Harrison is a very passionate, kind, engaging, and straightforward provider, 1 admire his attention to detail and even more the fact that he did not seem rushed. Although I'd rather not have to see a provider for the long term, I could not have selected a better doctor for the issues i am dealing with, I feel extremely confident in having Dr. Harrison on my medical team.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "nancy-r",
+				"reviewer": "Nancy Rapp",
+				"location": null,
+				"quote": "Dr. Harrison is one of the most calming doctors I have ever been to. His office staff is very friendly and professional. I enjoyed the ultrasound tech, I didn't get her name. She was very reassuring and gentle. Overall, a great experience.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "erin-b",
+				"reviewer": "Erin Burdt",
+				"location": null,
+				"quote": "Very detailed, oersonable, and professional! Explained everything until I fully understood what was going on. Staff were excellent. Short wait time before seeing nurses and providers.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "millie-c",
+				"reviewer": "Millie Conner",
+				"location": null,
+				"quote": "Dr. Harrison is one of a kind he is a WONDERFUL!!! Takes time to explain everything and shows compassion. He deserves a 10 star!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "billy-g",
+				"reviewer": "Billy Greenlee",
+				"location": null,
+				"quote": "This was my first visit to dr Harrison. Everything went well. ALL THE STAFF was very courteous and helpful. I really liked dr Harrison. He took the time to answer my questions in detai. From 1 visit i would certainly reccomend him",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "colleen-s",
+				"reviewer": "Colleen Saathoff",
+				"location": null,
+				"quote": "Nothing but positive things to say. Office is efficient, on time, clean, nice people and the doctor so super friendly and takes his time to explain everything.",
+				"rating": "5",
+				"source": "Google"
+			}
+		],
+		"testimonialSources": [
+			{
+				"label": "Google Reviews",
+				"url": "https://www.google.com/search?q=Dr+wilson+harisson&sca_esv=8f41bf99e870b429&biw=1327&bih=745&sxsrf=ANbL-n5fCwd3kD258Pgkx1hvDKCdzGfCCw%3A1774064260084&ei=hBK-acHwBKeP8L0P9veG8Qs&ved=0ahUKEwjBwp-wiLCTAxWnB7wBHfa7Ib4Q4dUDCBM&uact=5&oq=Dr+wilson+harisson&gs_lp=Egxnd3Mtd2l6LXNlcnAiEkRyIHdpbHNvbiBoYXJpc3NvbjIQEC4YgAQYxwEYDRiOBRivATIGEAAYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yHxAuGIAEGMcBGA0YjgUYrwEYlwUY3AQY3gQY4ATYAQJI5x9Q3gVY3R1wAXgBkAEAmAG8AaAB0AqqAQQxMi4zuAEDyAEA-AEBmAIQoAKIC8ICChAAGLADGNYEGEfCAhcQLhiwAxi4BhjYAhjIAxjaBhjcBtgBAcICEBAAGIAEGLEDGEMYgwEYigXCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAhMQLhiABBhDGMcBGIoFGI4FGK8BwgINEC4YgAQYsQMYQxiKBcICDhAuGIAEGMcBGI4FGK8BwgIFEAAYgATCAhAQLhiABBhDGMcBGIoFGK8BwgIQEAAYgAQYsQMYgwEYFBiHAsICChAAGIAEGBQYhwLCAggQLhiABBixA8ICFxAuGIAEGLEDGJcFGNwEGN4EGOAE2AECwgILEC4YgAQYxwEYrwHCAgYQABgWGB7CAhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAsICBRAhGKABmAMA4gMFEgExIECIBgGQBg26BgQIARgZugYGCAIQARgUkgcEMTIuNKAHn8wBsgcEMTEuNLgHhQvCBwYwLjE0LjLIByaACAA&sclient=gws-wiz-serp#lrd=0x872b011f9b1208f9:0xaa2f35ad1526fd55,1,,,,"
+			}
+		]
+	},
+	{
+		"id": "martin-zomaya",
+		"slug": "martin-zomaya",
+		"group": "physician",
+		"name": "Martin P. Zomaya",
+		"titleAbbreviations": ["M.D."],
+		"title": "Vascular and Endovascular Surgeon",
+		"image": "/images/providers/MZomaya.jpg",
+		"imageAlt": "Dr. Martin Zomaya",
+		"summary": "Dr. Zomaya's training includes both traditional open vascular surgery and less invasive endovascular techniques.",
+		"bio": [
+			"Dr. Martin Zomaya moved to Arizona from New Jersey in 2018. He was born and raised in Little Rock, Arkansas and moved away for his medical school and surgical training in New York and New Jersey. He attended the University of Arkansas in Little Rock for his undergraduate education and then went on to the American University of the Caribbean Medical School, to receive his Doctor of Medicine.",
+			"Dr. Zomaya completed his general surgery residency at Hofstra Northwell School of Medicine in New York at Staten Island University Hospital and he completed his vascular surgery fellowship at Rutgers Robert Wood Johnson Medical School in New Jersey. Dr. Zomaya's training includes both traditional open vascular surgery, and as well less invasive endovascular techniques for the treatment of arterial and venous disease. He holds certification in Surgery from the American Board of Surgery.",
+			"Dr. Zomaya is a staff/attending surgeon at Banner University Medical Center and St. Joseph's Hospital. He is an active participant in the training of residents and medical students at the Phoenix Integrated Surgical Residency."
+		],
+		"credentials": [
+			"Board Certified by the American Board of Surgery",
+			"Treats arterial and venous disease",
+			"Active participant in resident and medical student training"
+		],
+		"awards": [],
+		"testimonials": [
+			{
+				"id": "lee-h",
+				"reviewer": "Lee Hinton",
+				"location": null,
+				"quote": "I loved this Dr and entire staff. I feel so lucky that I found this Practice.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "michelle-p",
+				"reviewer": "Michelle Puckett",
+				"location": null,
+				"quote": "This office is clean, soothing, fun, and comfortable. Very attentive to what your alignments, or injuries are. Everyone is a team! My appointments are Always on time! 4 visits in and my legs feel a lot better! Recommend visiting.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "emmabelle-t",
+				"reviewer": "Emmabelle Tempongko",
+				"location": null,
+				"quote": "Great doctor! Laid out all the information on the procedure I needed including risks, which were thankfully nil, and all details about the surgery. I felt very informed and came away confident of his knowledge and his care.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "tm-k",
+				"reviewer": "TM Kerwin",
+				"location": null,
+				"quote": "Dr. and staff are warm, welcoming and care about your comfort. The procedure performed was (for me) easy and quick. Very little recovery time, no scar. I would recommend this vascular surgeon and his staff to anyone.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "alan-f",
+				"reviewer": "Alan Fine",
+				"location": null,
+				"quote": "At 94 years old 1 can say that working with Dr. Zomaya has been one of the best medical experiences of my life. The carotid surgery worked beautifully. He and his staff are a pleasure to work with,",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "angi",
+				"reviewer": "Angi",
+				"location": null,
+				"quote": "Over the past few years I have seen a variety of Doctors and nurses some good some bad. Everyone in Dr. Zamoyas office was exceptionally wonderful. I have never come across an office where every single person was so kind and just plain sweet! Yet they all were extremely professional. I felt calm and relaxed and safe. My questions were answered and current issues addressed. I would recommend Dr. Zamoya and his staff to any one.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "james-h",
+				"reviewer": "James Hawthorne",
+				"location": null,
+				"quote": "Dr Zomaya was very professional. He summarized what would/could take place during the procedure and what would happen if the original plan had to change. I felt very comfortable with him on my surgical team.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "david-e",
+				"reviewer": "David Eric",
+				"location": null,
+				"quote": "DR Z was superb! Very intelligent and meticulous surgeon. He answered all my questions and caused ZERO complications. I 100 percent recommend him for any type of vascular surgery.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "jaimee-b",
+				"reviewer": "Jaimee Brooks",
+				"location": null,
+				"quote": "I am absolutely impressed by Dr Zomaya's exceptional skills and expertise. His remarkable performance left me astounded, and 1 am confident that the incision, once healed, will barely be noticeable, which is a testament to his surgical mastery. I couldn't have asked for a better experience or outcome.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "a-sam",
+				"reviewer": "A Sam",
+				"location": null,
+				"quote": "Dr. Zomaya is my husband's vascular doctor, so when I needed care I did not hesitate. He is at the same time very caring and very practical. You feel you can ask all the questions you have, which is not true with all doctors. Another very important point for me is the rest of the team. From the person calling you for the appointment to the one taking your blood pressure before the appointment, everyone is kind and helpful.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "annie-r",
+				"reviewer": "Annie R.",
+				"location": null,
+				"quote": "Dr. Zomaya and staff have the unique ability to be very professional and yet make you feel right at home. The procedure I had done was 100% sukcessful. Now with the absence of pain in my leg; my quality of life has improved. Thank you so much.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "victoria-c",
+				"reviewer": "Victoria Crawford",
+				"location": null,
+				"quote": "Great visit! The staff was very welcoming and Dr. Zomaya was clear, professional and took plenty of time to discuss my condition. I was very pleased. Thank you!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "lyle-o",
+				"reviewer": "Lyle Oyster",
+				"location": null,
+				"quote": "He is awesome! He saved my left leg! He also tells it like it is. I would say that anyone would who needs his services are in great hands!",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "amy-t",
+				"reviewer": "Amy T.",
+				"location": null,
+				"quote": "Dr zomaya is friendly and so is the staff. They are caring too.",
+				"rating": "5",
+				"source": "Google"
+			},
+			{
+				"id": "vickie-e",
+				"reviewer": "Vickie E.",
+				"location": null,
+				"quote": "True MD no bs very blunt and to the point but a friendly guy and jokes around with you lol. Best Dr I have dealt with in years and his work omg amazing. Would highly recommend him to anyone that needs a vascular surgeon, not sure what all he can do but it's worth to call his office to see if he can help you. Best call I have made. Thank you so much Dr. Zomaya you rock!!",
+				"rating": "5",
+				"source": "Google"
+			}
+		],
+		"testimonialSources": [
+			{
+				"label": "Google Reviews",
+				"url": "https://www.google.com/search?q=dr+martin+zomaya&sca_esv=8f41bf99e870b429&biw=1327&bih=745&sxsrf=ANbL-n5647SDdZf7aR65Avb7b3CXyWkCcQ%3A1774064274354&ei=khK-aeewFdzEkPIP673V0QI&ved=0ahUKEwjnwYa3iLCTAxVcIkQIHeteNSoQ4dUDCBM&uact=5&oq=dr+martin+zomaya&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGRyIG1hcnRpbiB6b21heWEyDhAuGIAEGMcBGI4FGK8BMggQABiABBiiBDIIEAAYgAQYogQyBRAAGO8FSKxlUABY22NwAHgBkAEAmAGkAaABkAuqAQQxNC4yuAEDyAEA-AEBmAIQoALEC8ICBBAjGCfCAgoQIxiABBgnGIoFwgIKEAAYgAQYQxiKBcICChAuGIAEGEMYigXCAgsQABiABBixAxiDAcICDhAuGIAEGLEDGIMBGIoFwgILEC4YgAQY0QMYxwHCAg4QABiABBixAxiDARiKBcICBRAuGIAEwgINEC4YgAQYsQMYQxiKBcICBBAAGAPCAgsQABiABBiRAhiKBcICEBAuGIAEGEMYxwEYigUYrwHCAhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AEBwgINEAAYgAQYsQMYQxiKBcICBRAAGIAEwgILEC4YgAQYxwEYrwHCAg0QABiABBixAxgUGIcCwgIIEAAYgAQYsQPCAhAQLhiABBjRAxgUGIcCGMcBwgINEC4YgAQYsQMYFBiHAsICEBAuGIAEGBQYxwEYhwIYrwHCAhAQLhiABBgUGIcCGMcBGK8BwgIJEAAYgAQYChgLwgIMEC4YgAQY5QQYChgLwgIGEAAYFhgemAMA4gMFEgExIEC6BgYIARABGBSSBwQxNC4yoAfpggKyBwQxNC4yuAfEC8IHBjAuMTMuM8gHJIAIAA&sclient=gws-wiz-serp#lrd=0x872b13c50fbc5633:0xa6cc433dd1f23817,1,,,,"
+			}
+		]
+	},
+	{
+		"id": "ashley-forester",
+		"slug": "ashley-forester",
+		"group": "nurse-practitioner",
+		"name": "Ashley Forester",
+		"titleAbbreviations": ["F.N.P"],
+		"title": "Board Certified Family Nurse Practitioner Specializing in Vascular Surgery",
+		"image": "/images/providers/AForester.png",
+		"imageAlt": "Ashley Forester, FNP",
+		"summary": "Board certified Family Nurse Practitioner specializing in vascular surgery",
+		"bio": [
+			"Ashley Forester moved to Arizona from Kansas in 2012 shortly after graduating from Emporia State University with her Bachelor of Science in Nursing. She began her career at Banner University Medical Center and spent many years in Pulmonary and Reconstructive Plastics.",
+			"She went on to further her education at Grand Canyon University in 2015 and graduated with her Master of Science in Nursing Family Nurse Practitioner. She obtained her American Academy of Nurse Practitioners Board Certification shortly after graduation. After graduation, she specialized in Wound and Hyperbaric Medicine. In 2021, she began working exclusively with Dr. Martin Zomaya as his Nurse Practitioner in Vascular Surgery."
+		],
+		"credentials": [
+			"Board Certified Family Nurse Practitioner",
+			"Specialized in Wound and Hyperbaric Medicine"
+		],
+		"awards": [],
+		"testimonials": [],
+		"testimonialSources": []
+	},
+	{
+		"id": "stephanie-wilson",
+		"slug": "stephanie-wilson",
+		"group": "nurse-practitioner",
+		"name": "Stephanie Wilson",
+		"titleAbbreviations": ["D.N.P.", "AGACNP-BC", "R.N.F.A."],
+		"title": "Board Certified Adult-Gerontology Acute Care Nurse Practitioner",
+		"image": "/images/providers/SWilson.jpg",
+		"imageAlt": "Stephanie Wilson, NP",
+		"summary": "Board certified Adult-Gerontology Acute Care Nurse Practitioner",
+		"bio": [
+			"Stephanie Wilson was raised in Arizona. She earned her Bachelor of Science in Nursing from Arizona State University in 2014. She began her career as a registered nurse in the Cardiovascular Intensive Care Unit where she developed a strong foundation in the care of complex cardiac and vascular patients.",
+			"Stephanie then earned her Doctor of Nursing Practice degree from the University of Arizona in 2020 and became a board-certified Adult-Gerontology Acute Care Nurse Practitioner. Since becoming a nurse practitioner, she has specialized in vascular surgery where she is dedicated to providing comprehensive care for patients with a wide range of vascular conditions."
+		],
+		"credentials": [
+			"Board Certified Adult-Gerontology Acute Care Nurse Practitioner",
+			"Cardiovascular Intensive Care Unit Nurse Practitioner"
+		],
+		"awards": [],
+		"testimonials": [],
+		"testimonialSources": []
+	}
+]

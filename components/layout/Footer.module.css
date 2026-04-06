@@ -1,0 +1,288 @@
+.footer {
+  color: #fff;
+  background: var(--neu-dark-2);
+}
+
+.inner {
+  max-width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.inner .col1 {
+  padding: 1rem;
+}
+
+.inner .col1 .brand {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inner .col1 .brand p {
+  font-size: 1.4rem;
+  font-weight: var(--fw-light);
+}
+
+.inner .col1 span {
+  font-size: 0.65rem;
+}
+
+.inner .col1 hr {
+  border-width: 0.5px;
+  margin-top: 0.5rem;
+}
+
+.inner .col2 {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.inner .col2 p {
+  margin-top: 0.5rem;
+  font-size: 0.65rem;
+}
+
+.inner .col3 {
+  padding: 2.5rem 3rem;
+  font-family: var(--font-lato), serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.inner .col3 .loc {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner .col3 h6 {
+  margin-bottom: 0.65rem;
+  font-size: 0.75rem;
+  font-family: var(--font-montserrat), serif;
+}
+
+.inner .col3 p {
+  font-size: 0.7rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.35;
+}
+
+.inner .col3 .address {
+  margin-bottom: 0.65rem;
+  min-height: calc(1.35em * 3);
+}
+
+.inner .col3 span {
+  font-size: 0.7rem;
+  margin-left: 0.2rem;
+  font-weight: var(--fw-reg);
+}
+
+.meta {
+  margin: 0.35rem 0 0;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-start;
+}
+
+.link {
+  color: #0369a1;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  background: var(--neu-dark-1);
+  font-size: 0.65rem;
+  font-weight: var(--fw-bold);
+  text-align: center;
+}
+
+.bottom p {
+  padding: 0.5rem;
+}
+
+/* ---------- Tablet / iPad ---------- */
+@media (max-width: 1024px) {
+  .inner {
+    height: auto;
+    padding: 1.5rem 1.25rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas:
+      "col1 col2"
+      "col3 col3";
+    align-items: start;
+    gap: 1.5rem 1.5rem;
+  }
+
+  .inner .col1,
+  .inner .col2,
+  .inner .col3 {
+    min-width: 0;
+  }
+
+  .inner .col1 {
+    grid-area: col1;
+    padding: 0.5rem;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .inner .col1 .brand {
+    align-items: center;
+  }
+
+  .inner .col1 hr {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5rem 0 0.45rem;
+  }
+
+  .inner .col2 {
+    grid-area: col2;
+    padding: 0.5rem;
+    justify-self: center;
+    max-width: 100%;
+  }
+
+  .inner .col2 img,
+  .inner .col1 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .inner .col3 {
+    grid-area: col3;
+    padding: 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: clamp(2rem, 6vw, 4rem);
+    width: 100%;
+  }
+
+  .inner .col3 .loc {
+    max-width: 220px;
+  }
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 700px) {
+  .inner {
+    padding: 1rem 0.75rem;
+    gap: 1rem 0.75rem;
+  }
+
+  .inner .col1,
+  .inner .col2 {
+    padding: 0.25rem;
+    width: 100%;
+  }
+
+  .inner .col1 {
+    justify-self: stretch;
+    align-items: center;
+  }
+
+  .inner .col1 .brand {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 0.45rem;
+  }
+
+  .inner .col1 img {
+    width: 55px;
+    height: auto;
+  }
+
+  .inner .col1 .brand p {
+    font-size: 0.75rem;
+    line-height: 1.02;
+  }
+
+  .inner .col1 span {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 1.3;
+    max-width: 130px;
+  }
+
+  .inner .col1 hr {
+    width: min(100%, 120px);
+    margin: 0.35rem auto 0.3rem;
+  }
+
+  .inner .col2 {
+    text-align: center;
+  }
+
+  .inner .col2 img {
+    width: min(135px, 100%);
+    height: auto;
+  }
+
+  .inner .col2 p {
+    margin-top: 0.35rem;
+    font-size: 0.37rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .inner .col3 {
+    gap: 1.55rem;
+    padding-top: 0.25rem;
+  }
+
+  .inner .col3 .loc {
+    max-width: 145px;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .inner .col3 h6 {
+    margin-bottom: 0.45rem;
+    font-size: 0.6rem;
+  }
+
+  .inner .col3 p,
+  .inner .col3 span {
+    font-size: 0.55rem;
+    line-height: 1.3;
+  }
+
+  .inner .col3 .address {
+    min-height: auto;
+    margin-bottom: 0.45rem;
+  }
+
+  .bottom {
+    font-size: 0.55rem;
+  }
+
+  .bottom p {
+    padding: 0.45rem 0.5rem;
+  }
+}
