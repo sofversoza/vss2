@@ -4,6 +4,10 @@ import styles from "./QLSection.module.css"
 export default function QLSection() {
 	const links = [
 		{ label: "New Patient Paperwork", href: "/files/VSSNewPatient.pdf" },
+		{
+			label: "Online Registration Form",
+			href: "https://form.vascularsurgerydocs.com/register/insurance-information",
+		},
 		{ label: "Insurance Information", href: "/resources/insurance-info" },
 		{ label: "Privacy Statement", href: "/resources/privacy-statement" },
 		{ label: "The Vein Center at VSS", href: "about/vein-center" },

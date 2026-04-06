@@ -336,10 +336,13 @@
     padding: 1rem;
   }
 
-  .contentSectionHeading,
+  /* .contentSectionHeading,
   .contentSectionSubheading {
     text-align: center;
-  }
+  } */
+  /* .contentSectionHeading {
+    text-align: center;
+  } */
 
   .contentSectionHeading,
   .mediaSectionHeading {

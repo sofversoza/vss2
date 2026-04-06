@@ -16,7 +16,7 @@ const newPatientResourcesPage = {
 			links: [
 				{
 					label: "Online Registration Form",
-					href: "#",
+					href: "https://form.vascularsurgerydocs.com/register/insurance-information",
 				},
 			],
 		},
