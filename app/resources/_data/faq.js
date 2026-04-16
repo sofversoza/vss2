@@ -9,8 +9,8 @@ const faqPage = {
 			address: ["6040 North 7th Street", "Suite 105", "Phoenix, AZ 85014"],
 		},
 		{
-			subheading: "Chandler",
-			address: ["485 South Dobson Road", "Suite 115", "Chandler, AZ 85224"],
+			subheading: "Mesa",
+			address: ["2945 S Dobson Road", "Mesa, AZ 85202"],
 		},
 		{
 			heading: "What are your office hours?",
