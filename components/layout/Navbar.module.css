@@ -14,9 +14,9 @@
 
 .top {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
   padding: 1rem 5rem;
 }
@@ -26,36 +26,56 @@
   align-items: center;
   text-decoration: none;
   flex: 0 0 auto;
+  justify-self: start;
 }
 
 .siteTitle {
   margin: 0;
-  flex: 1;
-  min-width: 0;
+  justify-self: center;
   text-align: center;
   font-family: var(--font-lato), sans-serif;
   font-weight: var(--fw-light);
   font-size: clamp(1.6rem, 3vw, 2.5rem);
   line-height: 1.1;
   color: var(--neu-light-1);
+  white-space: nowrap;
 }
 
 .contactBlock {
-  flex: 0 0 auto;
+  justify-self: end;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.officeContact {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 0.35rem;
+  gap: 0.25rem;
+}
+
+.contactTitle {
+  margin: 0 0 0.1rem;
+  color: var(--neu-light-1);
+  font-size: 0.72rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .contactItem {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.3rem;
   color: var(--neu-light-1);
   text-decoration: none;
-  font-size: 0.85rem;
-  line-height: 1.2;
+  font-size: 0.78rem;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .bottom {
@@ -132,12 +152,36 @@
   display: inline-flex;
 }
 
+@media (max-width: 1100px) and (min-width: 769px) {
+  .top {
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .contactBlock {
+    gap: 0.75rem;
+  }
+
+  .contactTitle {
+    font-size: 0.66rem;
+  }
+
+  .contactItem {
+    font-size: 0.72rem;
+  }
+
+  .siteTitle {
+    font-size: clamp(1.45rem, 2.7vw, 2.1rem);
+  }
+}
+
 @media (max-width: 768px) {
   .inner {
     padding: 0 0.75rem;
   }
 
   .top {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -166,17 +210,29 @@
     flex: none;
     text-align: center;
     font-size: clamp(1.35rem, 7vw, 1.9rem);
+    white-space: normal;
   }
 
   .contactBlock {
-    flex-direction: row;
-    align-items: center;
+    width: 100%;
+    justify-self: auto;
     justify-content: center;
-    gap: 0.75rem;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .officeContact {
+    align-items: center;
+    text-align: center;
+    gap: 0.28rem;
+  }
+
+  .contactTitle {
+    font-size: 0.7rem;
   }
 
   .contactItem {
-    font-size: 0.82rem;
+    font-size: 0.78rem;
   }
 
   .bottom {
@@ -218,6 +274,19 @@
 }
 
 @media (max-width: 420px) {
+  .contactBlock {
+    gap: 0.75rem;
+  }
+
+  .contactTitle {
+    font-size: 0.62rem;
+    letter-spacing: 0.03em;
+  }
+
+  .contactItem {
+    gap: 0.22rem;
+    font-size: 0.7rem;
+  }
 
   .mobileHomeButton,
   .mobileToggle {

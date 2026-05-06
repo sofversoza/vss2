@@ -93,15 +93,33 @@ export default function Navbar() {
 					<p className={styles.siteTitle}>Vascular Surgery Specialists</p>
 
 					<div className={styles.contactBlock}>
-						<a href="tel:16022777430" className={styles.contactItem}>
-							<Icon name="call" filled size={18} />
-							<span>(602) 277-7430</span>
-						</a>
+						<div className={styles.officeContact}>
+							<p className={styles.contactTitle}>Phoenix Office</p>
 
-						<a href="fax:16022795333" className={styles.contactItem}>
-							<Icon name="fax" filled size={18} />
-							<span>(602) 279-5333</span>
-						</a>
+							<a href="tel:16022777430" className={styles.contactItem}>
+								<Icon name="call" filled size={16} />
+								<span>(602) 277-7430</span>
+							</a>
+
+							<a href="fax:16022795333" className={styles.contactItem}>
+								<Icon name="fax" filled size={16} />
+								<span>(602) 279-5333</span>
+							</a>
+						</div>
+
+						<div className={styles.officeContact}>
+							<p className={styles.contactTitle}>Mesa Office</p>
+
+							<a href="tel:14802108620" className={styles.contactItem}>
+								<Icon name="call" filled size={16} />
+								<span>(480) 210-8620</span>
+							</a>
+
+							<a href="fax:14802108622" className={styles.contactItem}>
+								<Icon name="fax" filled size={16} />
+								<span>(480) 210-8622</span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
