@@ -4,6 +4,7 @@
   --primary-light: #073D73;
   --primary-dark: #031F3A;
   --secondary: #E9BB86;
+  --secondary-dark: #B47A2E; /* Reserved for PDF + patient-registration links only */
 
   /* Neutrals */
   --neu-light-1: #F7F5FB;

@@ -1,6 +1,12 @@
 import Icon from "@/components/ui/Icon"
 import styles from "./about.module.css"
 
+/** Identifies links that should use the doc-link treatment (darker amber). */
+function isDocumentLink(href) {
+	if (!href) return false
+	return href.toLowerCase().endsWith(".pdf") || href === "/patient-registration"
+}
+
 export default function AboutContentSection({
 	heading,
 	subheading,
@@ -207,20 +213,29 @@ export default function AboutContentSection({
 
 		return (
 			<div className={styles.contentSectionLinks}>
-				{links.map((link) => (
-					<a
-						key={link.href}
-						href={link.href}
-						target="_blank"
-						rel="noreferrer"
-						className={styles.contentSectionLink}
-					>
-						{link.label}
-						<span className={styles.contentSectionLinkArrow} aria-hidden="true">
-							›
-						</span>
-					</a>
-				))}
+				{links.map((link) => {
+					const isDocLink = isDocumentLink(link.href)
+					const className = isDocLink
+						? `${styles.contentSectionLink} ${styles.contentSectionLinkDoc}`
+						: styles.contentSectionLink
+					return (
+						<a
+							key={link.href}
+							href={link.href}
+							target="_blank"
+							rel="noreferrer"
+							className={className}
+						>
+							{link.label}
+							<span
+								className={styles.contentSectionLinkArrow}
+								aria-hidden="true"
+							>
+								›
+							</span>
+						</a>
+					)
+				})}
 			</div>
 		)
 	}

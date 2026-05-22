@@ -243,6 +243,14 @@
 .contentSectionLink:focus-visible .contentSectionLinkArrow {
   transform: translateX(2px);
 }
+.contentSectionLinkDoc {
+  color: var(--secondary-dark);
+}
+.contentSectionLinkDoc:hover,
+.contentSectionLinkDoc:focus-visible {
+  color: var(--secondary-dark);
+  opacity: 1;
+}
 .contentSectionAddressGroup {
   margin-top: 0.5rem;
 }

@@ -109,7 +109,7 @@ export default function GoalSection() {
 
 								<Link
 									href="/files/Sclerotherapy.pdf"
-									className={styles.scleroLink}
+									className={`${styles.scleroLink} ${styles.scleroLinkDoc}`}
 								>
 									Sclerotherapy Procedure Instructions
 									<span className={styles.scleroArrow} aria-hidden="true">

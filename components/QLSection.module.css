@@ -84,6 +84,14 @@
   transform: translateX(2px);
 }
 
+.linkDoc {
+  color: var(--secondary);
+}
+.linkDoc:hover,
+.linkDoc:focus-visible {
+  color: var(--secondary);
+}
+
 @media (prefers-reduced-motion: reduce) {
 
   .link,

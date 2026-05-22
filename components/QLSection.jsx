@@ -1,12 +1,17 @@
 import Link from "next/link"
 import styles from "./QLSection.module.css"
 
+function isDocumentLink(href) {
+	if (!href) return false
+	return href.toLowerCase().endsWith(".pdf") || href === "/patient-registration"
+}
+
 export default function QLSection() {
 	const links = [
 		{ label: "New Patient Paperwork", href: "/files/VSSNewPatient.pdf" },
 		{
 			label: "Online Registration Form",
-			href: "https://form.vascularsurgerydocs.com/register/insurance-information",
+			href: "/patient-registration",
 		},
 		{ label: "Insurance Information", href: "/resources/insurance-info" },
 		{ label: "Privacy Statement", href: "/resources/privacy-statement" },
@@ -30,14 +35,19 @@ export default function QLSection() {
 					</div>
 
 					<div className={styles.linksList}>
-						{links.map((item) => (
-							<Link key={item.label} href={item.href} className={styles.link}>
-								{item.label}
-								<span className={styles.arrow} aria-hidden="true">
-									›
-								</span>
-							</Link>
-						))}
+						{links.map((item) => {
+							const className = isDocumentLink(item.href)
+								? `${styles.link} ${styles.linkDoc}`
+								: styles.link
+							return (
+								<Link key={item.label} href={item.href} className={className}>
+									{item.label}
+									<span className={styles.arrow} aria-hidden="true">
+										›
+									</span>
+								</Link>
+							)
+						})}
 					</div>
 				</div>
 			</div>

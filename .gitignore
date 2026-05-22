@@ -32,10 +32,16 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
 
+# Local PDF dumps from the patient-registration console email provider (dev only)
+/tmp
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+CLAUDE.md
