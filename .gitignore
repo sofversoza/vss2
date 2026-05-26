@@ -37,9 +37,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# Local PDF dumps from the patient-registration console email provider (dev only)
-/tmp
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
