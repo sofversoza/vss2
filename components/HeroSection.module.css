@@ -37,6 +37,7 @@
   flex-direction: column;
   align-items: flex-start;
   opacity: 0;
+  margin-left: 8vw;
   transform: translateY(14px);
 }
 .visible.textGroup {
