@@ -8,6 +8,11 @@ const nextConfig = {
 				permanent: true,
 			},
 			{
+				source: "/about-vascular-surgery-specialists.html",
+				destination: "/about",
+				permanent: true,
+			},
+			{
 				source: "/vascular-physicians.html",
 				destination: "/physicians",
 				permanent: true,
