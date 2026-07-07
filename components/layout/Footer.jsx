@@ -33,7 +33,7 @@ export default function Footer() {
 				<div className={`${styles.locationCol} ${styles.phoenixCol}`}>
 					<h6>Phoenix Office</h6>
 					<p className={styles.address}>
-						6040 n 75th St <br /> Suite 105 <br /> Phoenix, AZ 85014
+						6040 n 7th St <br /> Suite 105 <br /> Phoenix, AZ 85014
 					</p>
 					<p>
 						Phone: <span>(602) 277-7430</span>
