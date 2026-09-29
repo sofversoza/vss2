@@ -135,9 +135,7 @@ export default async function PhysicianProfilePage({ params }) {
 												<p className={styles.awardName}>
 													{award.issuer} {award.title}
 												</p>
-												<p className={styles.awardMeta}>
-													Voted a Top Doc in Phoenix Magazine by peers
-												</p>
+												<p className={styles.awardMeta}>{award.awardMeta}</p>
 											</div>
 										</div>
 									))}

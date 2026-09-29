@@ -28,7 +28,8 @@
 				"issuer": "Phoenix Magazine",
 				"awardedBy": "Peers",
 				"year": null,
-				"image": "/images/TopDocLogo.webp"
+				"image": "/images/TopDocLogo.webp",
+				"awardMeta": "Voted a Top Doc in Phoenix Magazine by peers"
 			}
 		],
 		"testimonials": [
@@ -256,6 +257,65 @@
 				"url": "https://www.google.com/search?q=Dr+wilson+harisson&sca_esv=8f41bf99e870b429&biw=1327&bih=745&sxsrf=ANbL-n5fCwd3kD258Pgkx1hvDKCdzGfCCw%3A1774064260084&ei=hBK-acHwBKeP8L0P9veG8Qs&ved=0ahUKEwjBwp-wiLCTAxWnB7wBHfa7Ib4Q4dUDCBM&uact=5&oq=Dr+wilson+harisson&gs_lp=Egxnd3Mtd2l6LXNlcnAiEkRyIHdpbHNvbiBoYXJpc3NvbjIQEC4YgAQYxwEYDRiOBRivATIGEAAYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yHxAuGIAEGMcBGA0YjgUYrwEYlwUY3AQY3gQY4ATYAQJI5x9Q3gVY3R1wAXgBkAEAmAG8AaAB0AqqAQQxMi4zuAEDyAEA-AEBmAIQoAKIC8ICChAAGLADGNYEGEfCAhcQLhiwAxi4BhjYAhjIAxjaBhjcBtgBAcICEBAAGIAEGLEDGEMYgwEYigXCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAhMQLhiABBhDGMcBGIoFGI4FGK8BwgINEC4YgAQYsQMYQxiKBcICDhAuGIAEGMcBGI4FGK8BwgIFEAAYgATCAhAQLhiABBhDGMcBGIoFGK8BwgIQEAAYgAQYsQMYgwEYFBiHAsICChAAGIAEGBQYhwLCAggQLhiABBixA8ICFxAuGIAEGLEDGJcFGNwEGN4EGOAE2AECwgILEC4YgAQYxwEYrwHCAgYQABgWGB7CAhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAsICBRAhGKABmAMA4gMFEgExIECIBgGQBg26BgQIARgZugYGCAIQARgUkgcEMTIuNKAHn8wBsgcEMTEuNLgHhQvCBwYwLjE0LjLIByaACAA&sclient=gws-wiz-serp#lrd=0x872b011f9b1208f9:0xaa2f35ad1526fd55,1,,,,"
 			}
 		]
+	},
+	{
+		"id": "michael-zhou",
+		"slug": "michael-zhou",
+		"group": "physician",
+		"name": "Michael Zhou",
+		"titleAbbreviations": ["M.D.", "RPVI"],
+		"title": "Board certified in Surgery through the American Board of Surgery, and holds RPVI certification",
+		"image": "/images/providers/MZhou.jpg",
+		"imageAlt": "Michael Zhou, MD",
+		"summary": "Dr. Zhou provides full-spectrum vascular care, including open and endovascular treatment of arterial and venous disease.",
+		"bio": [
+			"Dr. Michael Zhou joins Vascular Surgery Specialists in Central Phoenix as a fellowship-trained vascular and endovascular surgeon. He earned his medical degree from UT Southwestern Medical School, completed his General Surgery Residency at the University of Arizona College of Medicine – Phoenix, and completed his Vascular Surgery Fellowship at UT Health Science Center – Houston at the Memorial Hermann Heart & Vascular Institute.",
+			"He is board certified in Surgery through the American Board of Surgery, and holds RPVI certification. He contributed to academic research during residency and fellowship focused on trauma outcomes and aortic surgery.",
+			"In practice, Dr. Zhou is drawn to vascular surgery for the long-term relationships he builds with patients and the discipline of matching each patient to the operation best suited to their anatomy and goals. He provides full-spectrum vascular care, including open and endovascular treatment of arterial and venous disease, and is a teaching faculty at Banner University Medical Center Phoenix and St. Joseph's Hospital.",
+			"Dr. Zhou grew up between Shanghai, China and Houston, Texas, and is bilingual in Mandarin and English. He moved to Phoenix for residency and has since fallen in love with the Southwest. Outside the hospital, he is a fitness and car enthusiast, a foodie, and enjoys hiking and traveling with his wife."
+		],
+		"credentials": [
+			"Board Certified in General Surgery, American Board of Surgery (2025)",
+			"Board Eligible in Vascular Surgery, American Board of Surgery",
+			"RPVI — Registered Physician in Vascular Interpretation (2026)",
+			"Vascular Surgery Fellowship, University of Texas Health Science Center – Houston / Memorial Hermann Heart & Vascular Institute",
+			"General Surgery Residency, University of Arizona College of Medicine – Phoenix",
+			"Doctor of Medicine, UT Southwestern Medical School – Dallas",
+			"Bachelor of Arts in Statistics, Rice University",
+			"Staff surgeon, Banner University Medical Center Phoenix, St. Joseph's Hospital, and Flagstaff Medical Center",
+			"Bilingual — English and Mandarin Chinese"
+		],
+		"awards": [
+			{
+				"id": "program-director",
+				"title": "Program Director's Award for Excellence in Patient Care",
+				"issuer": "",
+				"awardedBy": "",
+				"year": 2025,
+				"image": null,
+				"awardMeta": ""
+			},
+			{
+				"id": "chief-resident",
+				"title": "Administrative Chief Resident Award",
+				"issuer": "",
+				"awardedBy": "",
+				"year": 2024,
+				"image": null,
+				"awardMeta": ""
+			},
+			{
+				"id": "gold-humanism",
+				"title": "Gold Humanism Honor Society",
+				"issuer": "",
+				"awardedBy": "",
+				"year": 2018,
+				"image": null,
+				"awardMeta": ""
+			}
+		],
+		"testimonials": [],
+		"testimonialSources": []
 	},
 	{
 		"id": "martin-zomaya",
